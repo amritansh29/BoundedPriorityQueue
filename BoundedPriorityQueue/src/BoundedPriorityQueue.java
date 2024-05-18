@@ -4,8 +4,8 @@ import java.util.PriorityQueue;
 
 public class BoundedPriorityQueue<T> {
 	
-	PriorityQueue <T> q;
-	int maxSize;
+	private PriorityQueue <T> q;
+	private int maxSize;
 		
 	public BoundedPriorityQueue(int size) throws IllegalArgumentException{
 		if (size <= 0) {
